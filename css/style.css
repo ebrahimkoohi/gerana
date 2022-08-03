@@ -555,6 +555,10 @@ a.nav-link{
   background-color: rgb(33, 33, 33);
   transition: .3s ease-in-out;
   width: auto;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   
   
 }
@@ -564,8 +568,8 @@ a.nav-link{
 .slidpic{
   border-radius: 5px;
   margin-top: 15px;
-  background-color: rgb(33, 33, 33);
-  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  
+  
   position:relative;
   
   
@@ -673,7 +677,7 @@ a.nav-link{
   border-radius: 10px;
   background-color: rgba(33, 33, 33,.502);
   float: right;
-  width: 92%;
+  width: 100%;
   margin-bottom: 25px;
 }
 .sidebox img{
@@ -1318,6 +1322,20 @@ promo css end
     display: flex;
     justify-content: space-evenly;
     margin-top: 15px;
+  }
+  .slidtitle{
+    right: 10px;
+    bottom: 10px;
+  }
+  .postbox a img{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .matnpost{
+    padding-right: 0px;
+    margin-top: 30px;
   }
 }
 @media (max-width:767px) {
